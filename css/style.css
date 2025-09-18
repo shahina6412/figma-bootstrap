@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+.navbar {
+  background-color: #f1ceda;
+}
+
+.navbar img {
+  width: 80%;
+}
 
 .container {
   max-width: 1320px;
@@ -103,6 +110,7 @@
   line-height: 24px;
   font-weight: 500;
   width: 510px;
+  margin-bottom: 44px;
 }
 #service .serv_1 .col-7 img {
   width: 100%;
@@ -116,8 +124,21 @@
   margin-right: 30px;
 }
 #service .link_1 {
-  padding-bottom: 10px;
+  padding-bottom: 9px;
   border-bottom: 3px solid #700a49;
+  border-start-end-radius: 8px;
+}
+#service .link_2 {
+  padding-bottom: 9px;
+  border-bottom: 3px solid #dbb8cd;
+}
+
+#service .serv_1 .play_btn {
+  border: 2px solid #700a49;
+  width: 24px;
+  padding: 5px;
+  border-radius: 100%;
+  color: #700a49;
 }
 
 /*---------------------------------package-------------------*/
@@ -189,4 +210,66 @@
   line-height: 20px;
   font-weight: 600;
   padding: 8px 32px;
+}
+/*---------------------main service------------------------------*/
+
+#mainservice .serv_content {
+  padding: 40px 0;
+}
+#mainservice .serv_content h2 {
+  font-size: 40px;
+  color: #700a49;
+  line-height: 65px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 27px;
+}
+#mainservice .serv_content p {
+  font-size: 16px;
+  color: #5c1023;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  width: 667px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#mainservice .servic_list .card {
+  background-color: #f1ceda;
+  border-radius: 15px;
+}
+
+#mainservice .servic_list img {
+  width: 100%;
+}
+#mainservice .servic_list h3 {
+  font-size: 25px;
+  color: #700a49;
+  line-height: 65px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+#mainservice .servic_list p {
+  font-size: 16px;
+  color: #5c1023;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  width: 347px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#mainservice .servic_list button {
+  display: block;
+  margin: auto;
+  border: 2px solid #700a49;
+  border-radius: 9px;
+  padding: 8px 17px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #700a49;
+  font-size: 18px;
+  font-weight: 600;
 }
