@@ -279,6 +279,12 @@
   font-weight: 600;
 }
 /*-----------------------testimonials -------------*/
+#testimonial .testi_content {
+  margin-bottom: 80px;
+}
+#testimonial .container {
+  padding: 0 !important;
+}
 
 #testimonial h2 {
   font-size: 40px;
@@ -291,16 +297,15 @@
 }
 
 #testimonial .lleft img {
-  width: 100%;
+  width: 125%;
 }
 #testimonial .rightt .testi_card p {
   font-size: 18px;
   color: #5c1023;
-  line-height: 28px;
+  line-height: auto;
   font-weight: 500;
   text-align: justify;
   width: 642px;
-  margin-bottom: 30px;
 }
 #testimonial .rightt .testi_card .text_h1 {
   font-size: 18px;
@@ -316,21 +321,42 @@
 }
 
 #testimonial .rightt .testi_card img {
-  width: 125px;
+  width: 94px;
   height: auto;
-  background-color: #ff87b0;
+  background-color: #da9bb0;
   border: none;
   border-radius: 100%;
+  display: inline-block;
+
+  margin-right: 36px;
 }
 
 #testimonial .rightt .testi_card {
   border: none;
   background-color: #f1ceda;
   border-radius: 10px;
-  box-shadow: color-mix(in xyz, #ad9da3 2%);
-  padding: 50px;
-  margin-bottom: 50px;
+  box-shadow: 8px 8px 12px gray;
+  margin-top: 70px;
+
+  position: relative;
+  padding: 66px;
 }
+#testimonial .rightt .testi_card .group img {
+  position: absolute;
+  bottom: 331px;
+  left: -11px;
+  background-color: white;
+  width: 70px;
+  color: #700a49;
+}
+#testimonial .rightt .testi_card .group_1 img {
+  position: absolute;
+  top: 340px;
+  right: -47px;
+  background-color: white;
+  width: 70px;
+}
+
 #testimonial .crad_2 .card img {
   width: 125px;
   height: auto;
@@ -360,13 +386,6 @@
   text-align: justify;
   margin-bottom: 30px;
 }
-#shopping .shop_content h2 {
-  font-size: 60px;
-  color: #700a49;
-  line-height: 65px;
-  font-weight: 700;
-  text-align: center;
-}
 
 /*-----------shopping-----------------*/
 #shopping .shop_content img {
@@ -384,6 +403,13 @@
   color: #700a49;
   font-size: 18px;
   font-weight: 600;
+}
+#shopping .shop_content h2 {
+  font-size: 60px;
+  color: #700a49;
+  line-height: 65px;
+  font-weight: 700;
+  text-align: center;
 }
 /*------------------------fotter----------------------------*/
 footer {
