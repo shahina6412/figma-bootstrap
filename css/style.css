@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 .navbar {
   background-color: #f1ceda;
 }
@@ -412,16 +413,14 @@
 /*------------------------fotter----------------------------*/
 footer {
   background-color: #f1ceda;
-  padding: 60px 60px 0 60px;
+  padding: 60px 0;
   margin-top: 78px;
 }
 
 footer .flex {
   flex-direction: start;
 }
-footer .footer_cont .left {
-  width: 30%;
-}
+
 footer .footer_cont .left img {
   width: 60%;
   margin-bottom: 24px;
@@ -433,6 +432,7 @@ footer .footer_cont .left p {
   font-weight: 500;
   text-align: justify;
   margin-bottom: 40px;
+  width: 300px;
 }
 footer .footer_cont ul {
   display: block;
@@ -443,6 +443,7 @@ footer .footer_cont ul li {
   list-style-type: none;
 }
 footer .footer_cont .left .footer_icon ul a {
+  text-decoration: none;
   border: none;
   color: #700a49;
   font-size: 20px;
@@ -454,38 +455,36 @@ footer .footer_cont .right {
   column-gap: 50px;
 }
 
-footer .footer_cont .right h3 {
+footer .footer_cont .nav_bt h3 {
   color: #700a49;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-footer .footer_cont .right .nav_bt ul {
+footer .footer_cont .nav_bt ul {
   list-style-type: none;
   padding-left: 0 !important;
 }
-footer .footer_cont .right .nav_bt ul li {
+footer .footer_cont .nav_bt ul li {
   margin-bottom: 15px;
 }
-footer .footer_cont .right .nav_bt ul li a {
+footer .footer_cont .nav_bt ul li a {
   text-decoration: none;
   color: #5c1023;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
-footer .footer_cont .right .location_content {
-  margin-left: 50px;
-}
-footer .footer_cont .right .location_content h3 {
+
+footer .footer_cont .location_content h3 {
   color: #700a49;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-footer .footer_cont .right .location_content p {
+footer .footer_cont .location_content p {
   color: #5c1023;
   font-size: 18px;
   font-weight: 400;
@@ -493,14 +492,14 @@ footer .footer_cont .right .location_content p {
   width: 321px;
 }
 
-footer .footer_cont .right .contact_content h3 {
+footer .footer_cont .contact_content h3 {
   color: #700a49;
   font-size: 20px;
   line-height: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-footer .footer_cont .right .contact_content p {
+footer .footer_cont .contact_content p {
   color: #5c1023;
   font-size: 18px;
   font-weight: 400;
