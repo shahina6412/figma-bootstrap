@@ -4,8 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
+
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -114,7 +116,7 @@
       <div class="container">
         <div class="serv_1">
           <div class="row">
-            <div class="col-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
               <h6>Portfolio Service</h6>
               <h2>We help design a ecommerce business shop</h2>
               <p>
@@ -122,18 +124,27 @@
                 sed euismod quis sit gravida pharetra sit. Cursus vel enim
                 pretium vulputate semper sem elit magna neque. Aliquet adipisc
               </p>
-              <span class="play_btn me-4"
-                ><i class="fa-solid fa-play"></i
-              ></span>
-              <a href="#"> <span class="link_1">See live</span></a>
-              <a href="#"
-                ><span class="link_2"
-                  >Case study <i class="fa-solid fa-arrow-right"></i></span
-              ></a>
+              <div class="link-serv d-flex gap-2">
+                <div>
+                  <span class="play_btn me-4"
+                    ><i class="fa-solid fa-play"></i
+                  ></span>
+                </div>
+
+                <div>
+                  <a href="#"> <span class="link_1">See live</span></a>
+                </div>
+                <div>
+                  <a href="#"
+                    ><span class="link_2"
+                      >Case study <i class="fa-solid fa-arrow-right"></i></span
+                  ></a>
+                </div>
+              </div>
             </div>
 
-            <div class="col-7">
-              <img src="./images/e-Commerce 2.png" alt="" />
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+              <img src="./images/e-Commerce 2.png" class="ms-auto w-100" />
             </div>
           </div>
         </div>
@@ -148,9 +159,9 @@
           <div class="row">
             <h2>Price List</h2>
             <h5>We working with customers brands and startups</h5>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
               <h3>Basic Price</h3>
-              <hr />
+              <hr/ class=" w-50 m-auto">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
                 quas quae adipisci eveniet minus consectetur molestias, minima
@@ -162,9 +173,9 @@
                 deleniti tempora vero aspernatur enim, dignissimos sint. Maxime!
               </p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
               <h3>Standerd Price</h3>
-              <hr />
+              <hr / class=" w-50 m-auto">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
                 quas quae adipisci eveniet minus consectetur molestias, minima
@@ -176,9 +187,9 @@
                 expedita error minima consequuntur!
               </p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-12 col-md-4 col-lg-4 col-12">
               <h3>Premium Price</h3>
-              <hr />
+              <hr / class=" w-50 m-auto">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
                 quas quae adipisci eveniet minus consectetur molestias, minima
@@ -199,10 +210,10 @@
       <div class="container">
         <div class="con_tent">
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
               <img src="./images/e-Commerce 2.png" alt="image" />
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
               <h2>How we work</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -236,7 +247,7 @@
         </div>
         <div class="servic_list">
           <div class="row row-cols-1 row-cols-md-3 g-5">
-            <div class="col">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-12">
               <div class="card">
                 <img
                   src="./images/service-list/serv_1.png"
@@ -254,7 +265,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-12">
               <div class="card">
                 <img
                   src="./images/service-list/serv_2.png"
@@ -272,7 +283,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-12">
               <div class="card">
                 <img
                   src="./images/service-list/serv_3.png"
@@ -302,34 +313,40 @@
         <div
           class="testi_content d-flex justify-content-between align-items-center"
         >
-          <div class="lleft">
-            <img src="./images/testimoi.png" alt="img" />
-          </div>
-          <div class="rightt">
-            <div class="testi_card d-flex">
-              <div class="group">
-                <img src="./images/group/left-quote 1.png" alt="" />
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4 col-12">
+              <div class="lleft">
+                <img src="./images/testimoi.png" alt="img" />
               </div>
-              <div class="carton_img">
-                <img src="./images/corton.png" alt="#" />
-              </div>
-              <div class="crd_text">
-                <p>
-                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Consectetur et pretium nunc, quis euismod et. Volutpat
-                  suspendisse sed in blandit condimentum. Sagittis nullam nec
-                  mauris, feugiat hendrerit aliquam cras. Dolor tortor gravida
-                  lobortis in ultricies enim vulputate non. Neque nibh donec
-                  quam lectus.” <br />
-                  <span class="text_h1"
-                    >Sed arcu, enim eu adipiscing enim vulputate vulputate
-                    semper adipiscing.</span
-                  >
-                  <span>Customer </span>
-                </p>
-              </div>
-              <div class="group_1">
-                <img src="./images/group/quat_1.png" alt="" />
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-8 col-12">
+              <div class="rightt">
+                <div class="testi_card d-flex">
+                  <div class="group">
+                    <img src="./images/group/left-quote 1.png" alt="" />
+                  </div>
+                  <div class="carton_img">
+                    <img src="./images/corton.png" alt="#" />
+                  </div>
+                  <div class="crd_text">
+                    <p>
+                      “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Consectetur et pretium nunc, quis euismod et. Volutpat
+                      suspendisse sed in blandit condimentum. Sagittis nullam
+                      nec mauris, feugiat hendrerit aliquam cras. Dolor tortor
+                      gravida lobortis in ultricies enim vulputate non. Neque
+                      nibh donec quam lectus.” <br />
+                      <span class="text_h1"
+                        >Sed arcu, enim eu adipiscing enim vulputate vulputate
+                        semper adipiscing.</span
+                      >
+                      <span>Customer </span>
+                    </p>
+                  </div>
+                  <div class="group_1">
+                    <img src="./images/group/quat_1.png" alt="" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -393,7 +410,7 @@
     </section>
 
     <!-----------------------------footer------------------->
-    <footer>
+    <footer style="display: none">
       <div class="container">
         <div class="footer_cont">
           <div class="flex">
@@ -403,11 +420,21 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Vulputate a, ultricies sit nunc purus vel cras pellentesque.
               </p>
-              <div class="footer_icon d-flex gap-4">
-                <a href=""><i class="fa-brands fa-dribbble"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                <a href=""> <i class="fa-brands fa-square-twitter"></i></a>
+              <div class="footer_icon">
+                <ul class="d-flex gap-4 text-left">
+                  <li>
+                    <a href=""><i class="fa-brands fa-dribbble"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""> <i class="fa-brands fa-square-twitter"></i></a>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="right d-flex justify-content-between">

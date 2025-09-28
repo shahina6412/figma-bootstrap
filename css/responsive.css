@@ -1,0 +1,231 @@
+@media screen and (min-width: 320px) and (max-width: 576px) {
+  .flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #hero .container .left {
+    width: 100%;
+  }
+
+  #hero .container .left h2 {
+    font-size: 30px;
+    color: #700a49;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 47px;
+    margin: 20px;
+  }
+  #hero .container .left p {
+    font-size: 16px;
+    color: #5c1023;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  #hero .container .right {
+    width: 100%;
+  }
+  #hero .container .right img {
+    width: 100%;
+  }
+  .hero-btn {
+    flex-direction: column;
+  }
+  .hero-btn .btn_1 {
+    background-color: #700a49;
+    color: #e0d0da;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 8px 32px;
+  }
+  .hero-btn .btn_2 {
+    border: 3px solid #700a49;
+    color: #700a49;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 8px 32px;
+  }
+  #hero .container .right img {
+    width: 100%;
+  }
+  /*--------------customer logo-------------------*/
+
+  #customar-logo {
+    margin-bottom: 40px;
+  }
+  #customar-logo .sec_custom {
+    width: 250px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  /*--------services----------------*/
+
+  .row {
+    flex-direction: column;
+  }
+  #service .serv_1 h6 {
+    color: #ff87b0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    padding-top: 60px;
+    text-align: center !important;
+  }
+
+  #service .serv_1 h2 {
+    font-size: 40px;
+    color: #700a49;
+    line-height: 65px;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 38px;
+    text-align: center;
+  }
+  #service .serv_1 p {
+    font-size: 16px;
+    color: #5c1023;
+    line-height: 24px;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 44px;
+  }
+  #service .link-serv {
+    flex-direction: column;
+  }
+  /*--------------package-------------------*/
+  #package .pkg_list h3 {
+    font-size: 20px;
+    color: #700a49;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+    width: auto;
+  }
+  /*--------------------main services--------------*/
+  #mainservice .serv_content h2 {
+    font-size: 30px;
+    color: #700a49;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 27px;
+  }
+
+  #mainservice .serv_content p {
+    font-size: 16px;
+    color: #5c1023;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    width: auto;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  #mainservice .servic_list p {
+    font-size: 16px;
+    color: #5c1023;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+    width: auto;
+  }
+  #testimonial .rightt .testi_card {
+    border: none;
+    background-color: #f1ceda;
+    border-radius: 10px;
+    box-shadow: 00 8px 5px 00 gray;
+    margin-top: 70px;
+    position: relative;
+    padding: 40px;
+  }
+
+  #testimonial .lleft img {
+    width: 100%;
+  }
+
+  #testimonial .rightt .testi_card p {
+    font-size: 18px;
+    color: #5c1023;
+    line-height: auto;
+    font-weight: 500;
+    text-align: center;
+    text-align: justify;
+    width: auto;
+  }
+  #testimonial .rightt .d-flex {
+    flex-direction: column;
+  }
+  #testimonial .rightt .testi_card .group img {
+    position: absolute;
+    bottom: 747px;
+    left: 3px;
+    background-color: transparent;
+    width: 43px;
+    color: #700a49;
+  }
+  #testimonial .rightt .testi_card .group_1 img {
+    position: absolute;
+    top: 740px;
+    right: 10px;
+    background-color: transparent;
+    width: 43px;
+  }
+  #testimonial .crad_2 .card img {
+    display: block;
+    margin: auto;
+    width: 125px;
+    height: auto;
+    background-color: #ff87b0;
+    border: none;
+    border-radius: 100%;
+  }
+  #testimonial .rightt .testi_card img {
+    width: 94px;
+    height: auto;
+    background-color: #da9bb0;
+    border: none;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+  }
+  #shopping .shop_content h2 {
+    font-size: 40px;
+    color: #700a49;
+    line-height: 55px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #shopping .shop_content img {
+    width: 100%;
+    margin: auto;
+  }
+  footer {
+    background-color: #f1ceda;
+    padding: 5px;
+    margin-top: 30px;
+  }
+  footer .flex {
+    flex-direction: column;
+  }
+  footer .footer_cont .left {
+    width: auto;
+  }
+  footer .footer_cont .left img {
+    width: 50%;
+    margin-bottom: 15px;
+  }
+  footer .footer_cont .right .d-flex {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .footer_cont .right .location_content {
+    margin-left: 0;
+  }
+}
